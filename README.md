@@ -83,8 +83,8 @@ KeyHound organizes its findings in the `output` directory:
 - `sensitive_findings.txt`: The valuable discoveries
 
 ## 📸 KeyHound in Action
+![image](https://github.com/user-attachments/assets/0266d532-6ec3-4e89-a1a6-8826dea38a7c)
 
-[Insert screenshots here showing KeyHound's hunting process]
 
 ## 🎯 Sample Discoveries
 
