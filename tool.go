@@ -116,7 +116,7 @@ func printBanner() {
 	banner := color.New(color.FgMagenta, color.Bold).SprintFunc()(
 		`
 ╔═══════════════════════════════════════╗
-║     		   KeyHound                 ║
+║     		   KeyHound             ║
 ║     Created with ♥ by elit3pwner      ║    
 ╚═══════════════════════════════════════╝
 `)
