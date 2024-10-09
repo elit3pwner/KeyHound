@@ -35,9 +35,9 @@ var sensitivePatterns = []*regexp.Regexp{
 	regexp.MustCompile(`(?i)auth['\"][:\s]+['\"]([^'\"]+)['\"]`),
 	regexp.MustCompile(`(?i)secret['\"][:\s]+['\"]([^'\"]+)['\"]`),
 	
-	// Endpoints & URLs
-	regexp.MustCompile(`(?i)(https?:\/\/[^\s<>\"\']+(\/[^\s<>\"\']*)?)`),
-	regexp.MustCompile(`(?i)\/api\/[a-zA-Z0-9\/_-]+`),
+	// // Endpoints & URLs
+	// regexp.MustCompile(`(?i)(https?:\/\/[^\s<>\"\']+(\/[^\s<>\"\']*)?)`),
+	// regexp.MustCompile(`(?i)\/api\/[a-zA-Z0-9\/_-]+`),
 	
 	// Credentials
 	regexp.MustCompile(`(?i)password['\"][:\s]+['\"]([^'\"]+)['\"]`),
@@ -47,8 +47,8 @@ var sensitivePatterns = []*regexp.Regexp{
 	regexp.MustCompile(`-----BEGIN [A-Z ]+ PRIVATE KEY-----`),
 	regexp.MustCompile(`(?i)private.?key['\"][:\s]+['\"]([^'\"]+)['\"]`),
 	
-	// Internal Paths
-	regexp.MustCompile(`(?i)(\/[a-zA-Z0-9_-]+)+\.(php|jsp|asp|aspx|html|js|py|rb)`),
+	// // Internal Paths
+	// regexp.MustCompile(`(?i)(\/[a-zA-Z0-9_-]+)+\.(php|jsp|asp|aspx|html|js|py|rb)`),
 	
 	// Database Strings
 	regexp.MustCompile(`(?i)mongodb(\+srv)?:\/\/[^\s<>"']+`),
